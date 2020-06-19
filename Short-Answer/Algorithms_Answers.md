@@ -33,3 +33,5 @@ each floor.
         and tell me to stop tossing eggs.
 We'd then count the eggs in the basket to determine
 the amount of floors until eggs will start breaking.
+
+Oh and this is linear search, O(n) because I count each floor until I find a broken egg.

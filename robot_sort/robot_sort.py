@@ -98,13 +98,13 @@ class SortingRobot:
         """
         Sort the robot's list. (Bubble sort)
         """
-        # pick up first item
-        self.swap_item()
 
         # robot light on means we're still sorting
         self.set_light_on()
 
         while self.light_is_on():
+            # pick up first item
+            self.swap_item()
             # Check if robot can go right
             while self.can_move_right():
                 self.sort_to_right()
